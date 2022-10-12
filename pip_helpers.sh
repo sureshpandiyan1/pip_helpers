@@ -2,7 +2,7 @@
 # Author: Suresh Pandiyan
 # email: suresh.pandiyan1@outlook.com
 
-pip --version > checker.txt
+
 
 pip_install_or_not() {
 pip --version > checker.txt

@@ -5,6 +5,10 @@ pip_helpers is an interactive shell written in bash. It's the best tool for ever
 
 ![Screenshot 2022-10-12 221417](https://user-images.githubusercontent.com/112636345/195400980-2605f831-0f3a-4869-8f8c-ace5f2c9d5ab.jpg)
 
+# watch the sample video
+
+[pip_helpers_demo.webm](https://user-images.githubusercontent.com/112636345/195406085-e5c72b07-ab30-4308-8396-b18a53b2e4c1.webm)
+
 
 # How to use
     For linux / windows Users 

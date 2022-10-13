@@ -2,7 +2,7 @@
 
 pip_helpers is an interactive shell written in bash. It's the best tool for everyday life who are using a pip to want to create, upload, etc.,
 
-![pip_helpers_homes](https://user-images.githubusercontent.com/112636345/195551454-7fdb7212-ca17-40bc-8f09-bd7fa0222849.jpg)
+![pip_helpers_homes](https://user-images.githubusercontent.com/112636345/195588106-2d4c412a-b8ff-4265-8e3e-985a9673c975.jpg)
 
 
 # watch the sample video

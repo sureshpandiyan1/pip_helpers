@@ -17,7 +17,7 @@ awk  '{if (substr($0,1,5) == "pip 0") print "pip => installed";
 rm checker.txt
 }
 
-rm
+
 print_tht() {
 read -p "enter your name" name
 read -p "enter your package name " packagename
@@ -59,6 +59,23 @@ read -s -p "enter your password: " password
 python3 -m twine upload -u $username -p $password --repository-url https://test.pypi.org/legacy/ dist/*
 }
 
+cpy_virtualenv() {
+# check for venv exists or not
+thatpath=venv/
+for myvenv in $thatpath
+do
+if [ -d "$myvenv" ];
+then
+echo "please wait for few mins...."
+tar -cf backup_pip_packages.tgz venv/Lib/site-packages/*
+echo "succesfully backup your packages in backup_pip_packages.tgz"
+else
+echo "please try to install virutal environment for your project"
+echo "venv is not exists!"
+fi
+done
+}
+
 ipkg() {
 pip freeze > requirements.txt
 echo "<h1 style=\"display: grid;grid-column: 1;text-align: center;\">Pip Installed Packages</h1>"
@@ -98,7 +115,8 @@ echo "2. create pypi setup.py"
 echo "3. create requirements.txt and report about packages"
 echo "4. upload your package to pypi"
 echo "5. upgrade pip"
-echo "6. quit"
+echo "6. backup your pip packages"
+echo "7. quit"
 read -sn1
 read -p "choose the option: " options
 case $options in
@@ -107,7 +125,9 @@ case $options in
 3) ipkg > pip_package_report.html | echo "succesfully created - take a look at requirements.txt and pip_package_report.html !!";;
 4) upload_package;;
 5) upgrade_your_pip;;
-6) exit 0;;
+6) cpy_virtualenv;;
+7) exit 0;;
 esac
 read -n1 -p "Press any key to continue"
 done
+

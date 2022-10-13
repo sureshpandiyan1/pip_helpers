@@ -1,4 +1,6 @@
 # welcome to pip_helpers
+# pip_helpers is an interactive shell written in bash. 
+# It's the best tool for everyday life who are using a pip to want to create, upload, etc.,
 # Author: Suresh Pandiyan
 # email: suresh.pandiyan1@outlook.com
 
@@ -103,6 +105,17 @@ upgrade_your_pip() {
 python3 -m pip install --upgrade pip
 }
 
+pip_stalls() {
+if [ -f pip_uninstall_pkg.txt ]; then
+pip uninstall --yes -r pip_uninstall_pkg.txt
+else
+echo "please kindly create a file  =>  pip_uninstall_pkg.txt"
+fi
+echo "--------------------------------------"
+echo "succesfully uninstalled your packages!!"
+echo "--------------------------------------"
+}
+
 while true
 do
 clear
@@ -115,7 +128,8 @@ echo "3. create requirements.txt and report about packages"
 echo "4. upload your package to pypi"
 echo "5. upgrade pip"
 echo "6. backup your pip packages"
-echo "7. quit"
+echo "7: uninstall packages via pip_uninstall_pkg.txt"
+echo "8. quit"
 read -sn1
 read -p "choose the option: " options
 case $options in
@@ -125,8 +139,9 @@ case $options in
 4) upload_package;;
 5) upgrade_your_pip;;
 6) cpy_virtualenv;;
-7) exit 0;;
+7) pip_stalls;;
+8) exit 0;;
 esac
+echo " "
 read -n1 -p "Press any key to continue"
 done
-

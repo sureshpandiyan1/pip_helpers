@@ -60,7 +60,6 @@ python3 -m twine upload -u $username -p $password --repository-url https://test.
 }
 
 cpy_virtualenv() {
-# check for venv exists or not
 thatpath=venv/
 for myvenv in $thatpath
 do

@@ -19,7 +19,7 @@ pip_helpers is an interactive shell written in bash. It's the best tool for ever
     bash pip_helpers.sh
     ./pip_helpers.sh
 
-# Highlights about PySecretStorage:
+# Highlights:
 - interactive shell
 - no need to install anything for run
 

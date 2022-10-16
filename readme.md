@@ -24,5 +24,10 @@ pip_helpers is an interactive shell written in bash. It's the best tool for ever
 - no need to install anything for run
 
 
+# Donations
+
+<a href="https://www.buymeacoffee.com/sureshpandiyan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;" ></a>
+
+
 # Copyright & License
 Suresh P @ 2022 | pip_helpers | Unlicense

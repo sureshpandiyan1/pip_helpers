@@ -2,7 +2,6 @@
 # pip_helpers is an interactive shell written in bash. 
 # It's the best tool for everyday life who are using a pip to want to create, upload, etc.,
 # Author: Suresh Pandiyan
-# email: suresh.pandiyan1@outlook.com
 
 
 

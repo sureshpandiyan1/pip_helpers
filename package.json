@@ -1,0 +1,30 @@
+{
+  "name": "pip-helpers",
+  "version": "1.0.0",
+  "description": "best tool for everyday life who want to create, upload based by interactive shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshpandiyan1/pip_helpers.git"
+  },
+  "keywords": [
+    "pip",
+    "package-install",
+    "pypi",
+    "interactive",
+    "shell",
+    "shell-based",
+    "bash",
+    "pip3",
+    "python"
+  ],
+  "author": "suresh p",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sureshpandiyan1/pip_helpers/issues"
+  },
+  "homepage": "https://github.com/sureshpandiyan1/pip_helpers#readme"
+}

@@ -12,6 +12,10 @@ pip_helpers is an interactive shell written in bash. It's the best tool for ever
 
 ![pip_helpers_homes](https://user-images.githubusercontent.com/112636345/195588106-2d4c412a-b8ff-4265-8e3e-985a9673c975.jpg)
 
+# you can install via npm too
+    npm i pip-helpers
+
+    
 # newly added in pip_helpers
     - backup your pip packages
     - uninstall packages

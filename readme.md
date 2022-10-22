@@ -36,9 +36,9 @@ pip_helpers is an interactive shell written in bash. It's the best tool for ever
 - no need to install anything for run
 
 
-# Donations
+## Support Me
 
-<a href="https://www.buymeacoffee.com/sureshpandiyan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;" ></a>
+<a href='https://ko-fi.com/C0C7FULK9' target='_blank'><img height='70' style='border:0px;height:70px;' src='https://storage.ko-fi.com/cdn/brandasset/kofi_s_tag_white.png?' border='0' alt='support me on ko-fi.com' /></a>
 
 
 # Copyright & License

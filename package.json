@@ -1,6 +1,6 @@
 {
   "name": "pip-helpers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "best tool for everyday life who want to create, upload based by interactive shell",
   "main": "index.js",
   "scripts": {
